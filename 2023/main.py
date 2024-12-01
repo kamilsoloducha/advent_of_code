@@ -14,10 +14,12 @@ import task14
 import task15
 import task16
 import task17
+import task18
+import task19
 import util
 
-file = open('task17_1.txt', 'r')
+file = open('task19.txt', 'r')
 
 content = file.readlines()
 
-task17.task1(content)
+task19.task1(content)
