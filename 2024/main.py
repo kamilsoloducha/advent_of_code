@@ -7,18 +7,21 @@ import task6;
 import task7;
 import task8;
 import task9;
+import task10;
+import task11;
+import task12;
 
 # args = sys.argv[1].split(' ')
 # puzzle_number = args[0];
 # task_number = args[1];
 
-file_name = './puzzles/puzzle9';
+file_name = './puzzles/puzzle12';
 
 file = open(file_name, 'r')
 content = file.readlines()
 
 
-task9.part2(content)
+task12.part2(content)
 
 # match puzzle_number:
 #     case '1':

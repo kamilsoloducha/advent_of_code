@@ -59,7 +59,6 @@ def part2(lines):
     for letter in lines[0].strip('\n'):
         content.append(int(letter))
     array = np.array(content)
-    print(array)
 
     result = []
 
@@ -95,8 +94,6 @@ def part2(lines):
         pointer = min(number_indexes) - 1
 
     counter = 0
-
-    print(result)
 
     for i in range(len(result)):
         if result[i] == '.': continue;
